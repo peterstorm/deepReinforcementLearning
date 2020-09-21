@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # tensorboard folders
-/runs
+**/runs
+
+# saved models
+*.dat

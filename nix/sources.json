@@ -1,0 +1,50 @@
+{
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "dd13098d01eaa6be68237e7e38f96782b0480755",
+        "sha256": "1cfjdbsn0219fjzam1k7nqzkz8fb1ypab50rhyj026qbklqq2kvq",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/dd13098d01eaa6be68237e7e38f96782b0480755.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-19.09",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "289466dd6a11c65a7de4a954d6ebf66c1ad07652",
+        "sha256": "0r5ja052s86fr54fm1zlhld3fwawz2w1d1gd6vbvpjrpjfyajibn",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/289466dd6a11c65a7de4a954d6ebf66c1ad07652.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "streamlit": {
+        "branch": "develop",
+        "description": "Streamlit — The fastest way to build data apps in Python",
+        "homepage": "https://streamlit.io",
+        "owner": "streamlit",
+        "repo": "streamlit",
+        "rev": "d597ab4088bd38e233f445bb36516570f38f694f",
+        "sha256": "0i6sbhibazb6cg38kbkh9frcsbxjx9afw9msjr56w6lzjfb4g03p",
+        "type": "tarball",
+        "url": "https://github.com/streamlit/streamlit/archive/d597ab4088bd38e233f445bb36516570f38f694f.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "unstable": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6803bc6882004ec296fca90252d9764a60040abd",
+        "sha256": "0hg9jrcb01ilpq5qc6bhm5pzip6l1nk51zgcqw1da63lfpbrsbnl",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/6803bc6882004ec296fca90252d9764a60040abd.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
