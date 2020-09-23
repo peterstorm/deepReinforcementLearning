@@ -31,7 +31,7 @@ in
       shellHook = ''
         echo 'Entering Python Project Environment'
         # extra packages can be installed here
-        export LD_LIBRARY_PATH=${stdenv.cc.cc.lib}/lib/:/run/opengl-driver/lib/:${pkgs.glib.out}/lib/:${pkgs.freeglut.out}/lib/:${pkgs.libGLU.out}/lib/:${pkgs.xorg.libX11.out}/lib/
+         export LD_LIBRARY_PATH=${stdenv.cc.cc.lib}/lib/:/run/opengl-driver/lib/:${pkgs.glib.out}/lib/:${pkgs.freeglut.out}/lib/:${pkgs.libGLU.out}/lib/:${pkgs.xorg.libX11.out}/lib/
         unset SOURCE_DATE_EPOCH
       '';
       };
